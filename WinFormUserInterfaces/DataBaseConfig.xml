@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<ArrayOfDataBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataBase>
+    <Index>1</Index>
+    <Name>FasicoMang</Name>
+    <Caption>راهبری</Caption>
+    <DefualtDataBase>FasicoMang</DefualtDataBase>
+    <MappingTo>
+      <string>Fasico.Core.Properties.Settings.ConStr</string>
+      <string>Fasico.CityHall.DataAccess.Properties.Settings.ConStr</string>
+      <string>Fasico.CityHall.DataAccess.Properties.Settings.ConStrMang</string>
+      <string>Fasico.CityHall.DataAccess.Properties.Settings.ConStrCommon</string>
+    </MappingTo>
+  </DataBase>
+  <DataBase>
+    <Index>2</Index>
+    <Name>FasicoNews</Name>
+    <Caption>خبر</Caption>
+    <DefualtDataBase>FasicoNews</DefualtDataBase>
+    <MappingTo>
+      <string>Fasico.CityHall.DataAccess.Properties.Settings.ConStrNews</string>
+    </MappingTo>
+  </DataBase>
+  <DataBase>
+    <Index>3</Index>
+    <Name>FasicoPRS</Name>
+    <Caption>پرسنلی</Caption>
+    <DefualtDataBase>FasicoPRS</DefualtDataBase>
+    <MappingTo>
+      <string>Fasico.CityHall.DataAccess.Properties.Settings.ConStrPrs</string>
+    </MappingTo>
+  </DataBase>
+  <DataBase>
+    <Index>3</Index>
+    <Name>FasicoExchangeServer</Name>
+    <Caption>سرور واسط</Caption>
+    <DefualtDataBase>FasicoExchangeServer</DefualtDataBase>
+    <MappingTo>
+      <string>MersadExhchangeServer.DataAccess.Properties.Settings.EXServerDataBase</string>
+    </MappingTo>
+  </DataBase>
+</ArrayOfDataBase>
